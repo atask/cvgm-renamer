@@ -1,0 +1,44 @@
+{
+  "name": "cvgm-renamer",
+  "version": "1.0.0",
+  "description": "cvgm.net file renamer",
+  "main": "cvgm-renamer.js",
+  "scripts": {
+    "lint": "standard cvgm-renamer.js test.js",
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atask/cvgm-renamer.git"
+  },
+  "author": "Allan Taschini <allan.taschini@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atask/cvgm-renamer/issues"
+  },
+  "homepage": "https://github.com/atask/cvgm-renamer#readme",
+  "dependencies": {
+    "commander": "2.19.0",
+    "fuzzaldrin": "2.1.0",
+    "interstice": "3.0.2",
+    "ms": "2.1.1",
+    "node-id3": "0.1.7",
+    "ora": "3.0.0",
+    "tunnel": "0.0.6"
+  },
+  "devDependencies": {
+    "proxyquire": "2.1.0",
+    "sinon": "7.1.1",
+    "standard": "12.0.1",
+    "tap": "12.0.1"
+  },
+  "bin": {
+    "cvgm-renamer": "cvgm-renamer.js"
+  },
+  "files": [
+    "cvgm-renamer.js"
+  ],
+  "engines": {
+    "node": ">=9.4.0"
+  }
+}
